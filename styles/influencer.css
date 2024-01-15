@@ -244,7 +244,12 @@ nav a {
     gap: 100px;
     margin-bottom: 100px;
 }
-
+.featured img{
+    width: 100%;
+}
+.featured-content{
+    width: 50%;
+}
 .featured-tittle {
     color: #0A0826;
     font-size: 2.375rem;
@@ -254,7 +259,6 @@ nav a {
 }
 
 .featured-des {
-    width: 500px;
     color: #6C6C6C;
     font-size: 1rem;
     font-weight: 700;
@@ -339,31 +343,13 @@ footer {
     .featured{
         flex-direction: column-reverse;
         text-align: center;
+        padding: 20px;
+    }
+    .featured-content{
+        width: 100%;
     }
     
 
 }
 
 /* Medium device */
-
-@media screen and (min-width:576px) and (max-width:992px) {
-    nav {
-        padding: 20px;
-        text-align: center;
-    }
-
-    nav>ul {
-        margin-top: 10px;
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .banner {
-        flex-direction: column-reverse;
-        padding: 5px;
-        text-align: center;
-    }
-
-
-
-}
