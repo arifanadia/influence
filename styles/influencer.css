@@ -15,12 +15,12 @@
     padding: 10px 24px;
     font-weight: 700;
     margin-top: 30px;
+    text-align: center;
 }
 
 /* header related style */
 header {
     background: #FFF;
-    border: 2px solid tomato;
 }
 
 .header-tittle {
@@ -37,6 +37,7 @@ nav {
 
 nav>ul {
     display: flex;
+    align-items:center ;
 }
 
 nav li {
@@ -284,6 +285,15 @@ footer {
     font-size: 0.875rem;
     font-weight: 700;
     line-height: 24px;
+    margin-top: 10px;
+}
+
+.icon {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: #FFF;
 }
 
 /* Responsive media queries */
