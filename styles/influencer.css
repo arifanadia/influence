@@ -15,7 +15,6 @@
     padding: 10px 24px;
     font-weight: 700;
     margin-top: 30px;
-    text-align: center;
 }
 
 /* header related style */
@@ -37,7 +36,6 @@ nav {
 
 nav>ul {
     display: flex;
-    align-items:center ;
 }
 
 nav li {
@@ -273,6 +271,7 @@ footer {
     background: #0A0826;
     padding: 70px;
     text-align: center;
+    
 }
 
 
@@ -335,7 +334,13 @@ footer {
         grid-template-columns: 1fr;
         padding: 20px;
 
+
     }
+    .featured{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    
 
 }
 
